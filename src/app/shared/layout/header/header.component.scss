@@ -1,0 +1,63 @@
+.promo {
+  height: 49px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  word-spacing: 0.08em;
+  &__link {
+    text-align: center;
+    margin-left: 8px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+}
+
+header {
+  max-width: 1195px;
+  margin: 0 auto;
+  margin-top: 37px;
+  height: 38px;
+  display: flex;
+  align-items: stretch;
+  gap: 210px;
+  margin-bottom: 16px;
+  h1 {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.72px;
+  }
+}
+
+nav {
+  margin-left: 30px;
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.searchbar {
+  background-color: #f5f5f5;
+  display: flex;
+  padding: 7px 12px 7px 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.divider {
+  border-bottom: 0.5px solid rgba($color: #000000, $alpha: 0.3);
+}
