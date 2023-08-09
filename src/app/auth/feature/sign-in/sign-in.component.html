@@ -1,0 +1,20 @@
+<form [formGroup]="signinForm" class="signup-form" (submit)="onSubmit()">
+  <h1 class="title">Log in to Exclusive</h1>
+  <div class="subtitle">Enter you details below</div>
+
+  <div class="input-wrapper">
+    <input type="text" placeholder="Username" formControlName="username" />
+  </div>
+  <div class="input-wrapper">
+    <input
+      type="password"
+      placeholder="Password"
+      formControlName="password"
+      autocomplete="new-password"
+    />
+  </div>
+  <div class="btn-group">
+    <button class="btn btn-signup" type="submit">Log in</button>
+    <a>Forgot password?</a>
+  </div>
+</form>
