@@ -24,6 +24,7 @@
   input {
     font-size: 16px;
     height: 24px;
+    width: 100%;
   }
 }
 
@@ -37,8 +38,12 @@
 }
 
 .btn-signup {
-  background: var(--button-2, #db4444);
-  color: white;
+  background: var(--button-2);
+  color: var(--text-1);
+  &:hover {
+    color: white;
+    background-color: var(--button-hover-2);
+  }
 }
 
 .btn-google {
@@ -48,6 +53,7 @@
   border: 1px solid rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
+  cursor: not-allowed; /* Remove after implementing*/
   div {
     display: flex;
     align-items: center;
