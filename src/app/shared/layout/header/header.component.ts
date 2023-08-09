@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   items = [
-    { name: 'Home', link: '#' },
+    { name: 'Home', link: '/' },
     { name: 'Contact', link: '#' },
     { name: 'About', link: '#' },
-    { name: 'Sign Up', link: '#' },
+    { name: 'Sign Up', link: 'auth/sign-up' },
   ];
 }
