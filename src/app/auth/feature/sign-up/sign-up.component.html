@@ -3,17 +3,22 @@
   <div class="subtitle">Enter you details below</div>
 
   <div class="input-wrapper">
-    <input type="text" placeholder="Name" formControlName="name" />
+    <input type="text" placeholder="Name" formControlName="username" />
   </div>
   <div class="input-wrapper">
     <input type="email" placeholder="Email" formControlName="email" />
   </div>
   <div class="input-wrapper">
-    <input type="password" placeholder="Password" formControlName="password" />
+    <input
+      type="password"
+      placeholder="Password"
+      formControlName="password"
+      autocomplete="new-password"
+    />
   </div>
   <div>
-    <button class="btn btn-signup">Create account</button>
-    <button class="btn btn-google">
+    <button class="btn btn-signup" type="submit">Create account</button>
+    <button type="button" disabled class="btn btn-google">
       <div>
         <svg
           width="24"
