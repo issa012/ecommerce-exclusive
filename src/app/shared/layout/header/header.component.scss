@@ -1,6 +1,6 @@
 .promo {
   height: 49px;
-  background-color: brown;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +47,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 3rem;
+    li {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
